@@ -64,8 +64,8 @@ private _volume = GVAR(volume);
 _volume = _volume min GVAR(volumeAttenuation);
 
 // Reduce volume if player is unconscious
-if (lifeState ACE_player == "INCAPACITATED") then {
-    _volume = _volume min GVAR(unconsciousnessVolume);
-};
+//if (lifeState ACE_player == "INCAPACITATED") then {
+//    _volume = _volume min GVAR(unconsciousnessVolume);
+//};
 
 [QUOTE(ADDON), _volume, true] call EFUNC(common,setHearingCapability);
