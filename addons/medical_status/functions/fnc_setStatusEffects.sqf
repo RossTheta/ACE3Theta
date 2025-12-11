@@ -22,7 +22,7 @@ TRACE_3("setStatusEffect",_unit,_set,_skipSetHidden);
 [_unit, "blockRadio", "ace_unconscious", _set] call EFUNC(common,statusEffect_set);
 
 // Block speaking on unconsciousness
-[_unit, "blockSpeaking", "ace_unconscious", _set] call EFUNC(common,statusEffect_set);
+// [_unit, "blockSpeaking", "ace_unconscious", _set] call EFUNC(common,statusEffect_set);
 
 if (_skipSetHidden) exitWith {};
 
