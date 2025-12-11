@@ -68,15 +68,16 @@ class CfgMovesMaleSdr: CfgMovesBasic {
         };
 
         // fix falling back to unconsciousness animation and disable rotating in that state
-        class Unconscious: Default {
+// Note To Self: This is probably the wrong way to do this but we play with AI dying instantly anyways, so this isn't a problem I think?
+       // class Unconscious: Default {
             // Prevents AI from moving torso and head when unconscious
-            aiming = "aimingNo";
-            aimingBody = "aimingUpNo";
-            head = "headNo";
+      //      aiming = "aimingNo";
+       //     aimingBody = "aimingUpNo";
+        //    head = "headNo";
 
-            ConnectTo[] = {};
-            forceAim = 1;
-            static = 1;
+          //  ConnectTo[] = {};
+           // forceAim = 1;
+           // static = 1;
         };
 
         // idk. Flummi?
