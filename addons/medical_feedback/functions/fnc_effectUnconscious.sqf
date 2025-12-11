@@ -21,8 +21,8 @@
 // switch (_mode) do {
     // Instant (for Zeus or death)
   //  case 0: {
-        GVAR(ppUnconsciousBlur)     ppEffectEnable _enable;
-        GVAR(ppUnconsciousBlackout) ppEffectEnable _enable;
+      //    GVAR(ppUnconsciousBlur)     ppEffectEnable _enable;
+      //    GVAR(ppUnconsciousBlackout) ppEffectEnable _enable;
  //   };
     // Animated (triggered on unconscious event)
  //   case 1: {
